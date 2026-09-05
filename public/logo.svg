@@ -1,0 +1,17 @@
+<svg viewBox="0 0 680 160" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="SkillBridge Logo">
+  <!-- SKILL -->
+  <text x="15" y="126" fill="#5A6270" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="78" font-weight="300" letter-spacing="3.5">SKILL</text>
+  <!-- BRIDGE -->
+  <text x="215" y="126" fill="#1251BA" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="78" font-weight="800" letter-spacing="2.5">BRIDGE</text>
+  <!-- Bridge Arch Graphic -->
+  <g fill="#1251BA" transform="translate(390, 10) scale(1.15)">
+    <path d="M0 64 C16 32, 42 15, 78 12 C76 18, 74 23, 72 28 C45 31, 24 45, 12 70 Z" />
+    <path d="M14 62 L22 62 L22 47 C19 52, 16 57, 14 62 Z" />
+    <path d="M26 62 L34 62 L34 38 C31 42, 28 47, 26 52 Z" />
+    <path d="M38 62 L46 62 L46 32 C43 35, 40 39, 38 43 Z" />
+    <path d="M50 62 L58 62 L58 27 C55 29, 52 32, 50 36 Z" />
+    <path d="M78 12 C108 15, 142 38, 205 110 L182 110 C128 48, 100 27, 76 22 C78 16, 78 13, 78 12 Z" />
+    <path d="M82 28 C108 35, 136 55, 175 110 L156 110 C124 62, 100 43, 75 36 C77 33, 80 30, 82 28 Z" />
+    <path d="M84 44 C104 50, 126 67, 148 110 L131 110 C114 73, 97 58, 75 52 C78 49, 81 46, 84 44 Z" />
+  </g>
+</svg>

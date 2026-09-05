@@ -1,0 +1,6 @@
+{
+  "name": "SkillBridge",
+  "description": "An accessible skill-development platform for college students to discover curated learning resources, receive personalized recommendations, and track learning progress.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  /* Font scaling levels */
+  html.text-scale-normal {
+    font-size: 16px;
+  }
+  html.text-scale-large {
+    font-size: 18px;
+  }
+  html.text-scale-xl {
+    font-size: 20px;
+  }
+
+  /* High contrast mode adjustments */
+  html.high-contrast-mode {
+    --tw-contrast: high;
+  }
+  html.high-contrast-mode body {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  html.high-contrast-mode .bg-white {
+    background-color: #ffffff !important;
+    border-color: #000000 !important;
+  }
+  html.high-contrast-mode .text-slate-600,
+  html.high-contrast-mode .text-slate-500 {
+    color: #1e293b !important;
+  }
+  html.high-contrast-mode .border-slate-200,
+  html.high-contrast-mode .border-slate-100 {
+    border-color: #0f172a !important;
+    border-width: 1.5px !important;
+  }
+
+  /* Reduced motion */
+  html.reduce-motion-mode *,
+  html.reduce-motion-mode *::before,
+  html.reduce-motion-mode *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  /* Accessible focus indicators */
+  *:focus-visible {
+    outline: 2.5px solid #4f46e5 !important;
+    outline-offset: 3px !important;
+    box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.2) !important;
+  }
+}
+
+/* Screen reader only utility class */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
